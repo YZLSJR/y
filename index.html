@@ -1,1 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .heada {
+        float: left;
+        padding-left: 170px;
+        font-size: 25px;
+        line-height: 55px;
+    }
+
+    .heada2 {
+        float: left;
+        padding-left: 80px;
+        font-size: 25px;
+        line-height: 55px;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: rgb(250, 235, 215);
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: rgb(250, 235, 215);
+    }
+
+    a:hover {
+        text-decoration: none;
+        color:#8593A1;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+    .Geeklogo{
+        height: 850px;
+        width: 100%; 
+        background-image: url(https://img-blog.csdnimg.cn/b5e868828b81424693ed2d695eb93caf.png);
+        background-size: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .a{transition: width 0.6s,height 0.6s;}
+    .a1:hover{
+        width: 520px;
+        height: 325px;
+    }
+    .a2:hover{
+        height: 288px;
+        width: 240px;
+    }
+    .hudie{
+        height: 240px;
+        width: 200px;
+        position: relative;
+        top: 770px;
+        right: -25px;
+    }
+    .wenben{
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    .binglie{
+        display: inline-block;
+    }
+    .biankuang:hover{
+        border-width: 10px;
+    }
+    .img2 {
+
+        transition-duration: 0.6s;
+    }
+
+
+	.img2:hover {
+		transform: scale(1.1);
+
+    }
+    .xuanzhuan:hover{
+        transform: rotate(-10deg);
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        /* min-width: 160px; */
+        top: 50px;
+        left: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+    }
+.dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+</style>
+
+<body> 
+    <div style="height: 55px;width: 100%;background-color: rgb(255, 132, 0);border-radius: 15px;position: fixed;" >
+
+        <div class="dropdown">
+            <a href="#" class="heada2">Introduction</a>
+            <div class="dropdown-content" ><img src="https://img-blog.csdnimg.cn/5596b59698de412599049f4a65c6133d.jpg" alt="" style="height:500px;width: 300px;"></div>  
+        </div>  
+        <a href="#About Us" class="heada a">About Us</a>
+        <a href="https://campus.new-thread.com/" class="heada a">NewThread</a>
+        <a href="#Contact Us" class="heada a">Contact Us</a>
+        <a href="#More Questions" class="heada a">Q&A</a>
+    </div>
+    <div class="Geeklogo">
+        
+        <img src="https://img-blog.csdnimg.cn/2a9f3b16f185444e9bf36a1b79ed68bc.png" alt="Geek标志" height="250" width="400" class="a a1">
+    </div>
+    <div style="background-color: white; background-image: url(https://img-blog.csdnimg.cn/ac19314d8b0e48d1a0575cde1b5839ca.png);width: 100%;height: 180px;background-repeat: no-repeat;background-size: 100%;">
+        <p style="text-align: center;line-height: 130px;font-size: 60px;font-weight: 800;color: #00008B;">Introduction</p>
+    </div>
+    <div style="padding-top: 80px;">
+        <div style="width: 83%;height: 510px; border-radius: 45px;border-style: solid;border-color: #808080; border-width: 5px; margin: auto;" class="biankuang img2">
+            <img src="https://img-blog.csdnimg.cn/8d3af7328aba415b99cf9c4d7589c459.png" alt="卡通图片猿" style="float: right;height: 85%;width: 28%;padding-top: 40px;padding-right: 30px;" class="img2 xuanzhuan">
+            <h2 style="font-size: 50px;padding-left: 60px;">开发程序猿</h2>
+            <h2 style="font-size: 43px;padding-left: 35px;color: #6495ED;">“Stay Hungry,Stay Foolish”</h2>
+            <p class="wenben">前端:前端开发是创建Web或app视觉界面呈现给用户的过程通过HTML,CSS及JavaScript以及衍生出来的各种技术、框架、解决方案,实现互联网产品的用户界面交互。</p>
+            <p class="wenben">后端：通常也称服务器端开发。不对用户显示,负责处理前端的请求，进行逻辑处理和数据交互。 客户端: 移动应用开发是为了小型、无线计算设备编写软件的流程和程序的集合，例如智能手机或平板电脑。</p>
+        </div>
+    </div>
+    <div style="padding-top: 80px;">
+        <div style="width: 83%;height: 510px; border-radius: 45px;border-style: solid;border-color: #808080; border-width: 5px; margin: auto;" class="biankuang img2">
+            <img src="https://img-blog.csdnimg.cn/484305014765465eaed67fdb92e79807.png" alt="卡通图片猫" style="float: left;height: 85%;width: 30%;padding-top: 40px;padding-left: 20px;padding-right: 20px;" class="xuanzhuan img2">
+            <h2 style="font-size: 50px;padding-left: 60px;">产品经理</h2>
+            <h2 style="font-size: 43px;padding-left: 35px;color: #EE82EE;">"好的软件的特征是,明明没用过，但总觉得用过似的。"</h2>
+            <p class="wenben">PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维,研究用户心理,负责产品的整个生命周期。 PM参与产品的UI和交互设计,为设计和开发确定产品原型,能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力,能够在团队合作的过程中跟各个角色进行有效沟通。</p>
+        </div>
+    </div>
+    <div style="padding-top: 80px;">
+        <div style="width: 83%;height: 480px; border-radius: 45px;border-style: solid;border-color: #808080; border-width: 5px; margin: auto;" class="biankuang img2">
+            <img src="https://img-blog.csdnimg.cn/ec00aa682716448db86c4e9698bcd05c.png" alt="卡通图片狗" style="float: right;height: 85%;width: 30%;padding-top: 40px;padding-right: 20px;" class="xuanzhuan img2">
+            <h2 style="font-size: 50px;padding-left: 60px;">游戏开发</h2>
+            <h2 style="font-size: 43px;padding-left: 35px;color: #40E0D0">"TECH OTAKUS SAVE THE WORLD"</h2>
+            <p class="wenben">对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习,我们使用物理模拟引擎Unity开发我们所追求的世界,一个故事,一个角色,在我们的世界里改变现实,创造新的可能,我们参与,我们改变,我们创造...</p>
+        </div>
+    </div>
+    <div style="padding-top: 80px;">
+        <div style="width: 83%;height: 510px; border-radius: 45px;border-style: solid;border-color: #808080; border-width: 5px; margin: auto;" class="biankuang img2">
+            <img src="https://img-blog.csdnimg.cn/56b2858a87214fc3b58bc3e2958835f6.png" alt="卡通图片狮" style="float: left;height: 90%;width: 30%;padding-top: 20px;padding-left: 20px;padding-right: 20px;" class="xuanzhuan img2">
+            <h2 style="font-size: 50px;padding-left: 60px;">安全</h2>
+            <h2 style="font-size: 43px;padding-left: 35px;color: #FFB6C1;">"路漫漫其修远兮，非大毅力者不能"</h2>
+            <p class="wenben">我们主要学习Web安全和二进制安全。在Web安全中我们将学习和实践Web漏洞挖掘技术,也将探索和讨论Web安全实践的方法。在二进制安全中我们专注于分析和防御与计算机程序、系统相关的威胁,同时实践漏洞分析和修补。耐心和钻研缺一不可。</p>
+        </div>
+    </div>
+    <div>
+        <img src="https://img-blog.csdnimg.cn/3c3ea901b891435d90a0e3d16149dad7.png" alt="" style="height: 80px;width: 270px;position: relative;right:-1155px;top: 70px;">
+        <img src="https://img-blog.csdnimg.cn/3c3ea901b891435d90a0e3d16149dad7.png" alt="" style="height: 80px;width: 270px;position: relative;right: -882px;top:815px; transform: rotateX(180deg);">
+        <img src="https://img-blog.csdnimg.cn/3c3ea901b891435d90a0e3d16149dad7.png" alt="" style="height: 80px;width: 270px;position: relative;right: 520px; top: 815px;transform: rotateX(180deg) rotateY(180deg);">
+        <img src="https://img-blog.csdnimg.cn/3c3ea901b891435d90a0e3d16149dad7.png" alt="" style="height: 80px;width: 270px;position: relative;right: 800px;top: 70px;transform: rotateY(180deg);">
+        <img src="https://img-blog.csdnimg.cn/2afac24503b7440dbc223b0be39a14ef.png" alt="" class="a a2 hudie"  >
+        <div style="height: 800px;width: 88%;border-style: solid;border-width: 10px; border-radius: 35px;margin: auto;border-color: #808080;background-color: #FFFDF5;">
+            <h2 style="text-align: center;padding-top: -10px; font-size: 65px;font-weight: 400;color: #808080;"><a name="About Us"></a>About Us</h2>
+            
+        
+            <div style="padding-left: 18%;" class="binglie">
+                <div style="height: 420px;width: 200px;border-style: solid;border-width: 8.5px; border-radius: 27px;border-color: #800080;" class="img2">
+                    <img src="https://img-blog.csdnimg.cn/8b532fbcdad8411ca4d32b172cdc97ed.png" alt="" style="float: left;height: 146px;width: 113px;padding-left: 36px;padding-top: 25px;">
+                    <p style="float: left;font-size: 20px;padding-top: 30px;padding-left: 20px;padding-right: 20px;">每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</p> 
+                </div>
+            </div>
+            <div style="padding-left: 100px;" class="binglie">
+                <div style="height: 420px;width: 200px;border-style: solid;border-width: 8.5px; border-radius: 27px;border-color: #800080;" class="img2">
+                    <img src="https://img-blog.csdnimg.cn/3c7c260d8cdf43989b80f6f76d354a17.png" alt="" style="float: left;height: 146px;width: 113px;padding-left: 47px;padding-top: 25px;">
+                    <p style="float: left;font-size: 20px;padding-top: 30px;padding-left: 20px;padding-right: 20px;">多元化是我们的特色。在这里,你可以拥有多种方向选择,前后端、安全、AI、产品/设计、游戏等。</p>
+
+                </div>
+            </div>
+            <div style="padding-left: 100px;" class="binglie">
+                <div style="height: 420px;width: 200px;border-style: solid;border-width: 8.5px; border-radius: 27px;border-color: #800080;" class="img2">
+                    <img src="https://img-blog.csdnimg.cn/b3d8f6365dbc41019782937f5895d443.png" alt="" style="float: left;height: 146px;width: 113px;padding-left: 36px;padding-top: 25px;">
+                    <p style="float: left;font-size: 20px;padding-top: 30px;padding-left: 20px;padding-right: 20px;">耐心、毅力是我们必备的品质,每周我们会至少花30小时在实验室中。以保证技术的精进。</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+        <div style="height: 800px;width: 88%;border-radius: 20px;border-style: solid;border-color: #008B8B; border-width: 10px;margin: auto;position: absolute;top:4800px;left: 100px;">
+            <img src="https://img-blog.csdnimg.cn/d730a2efacfd468f831d1216d19a44ce.png" alt="" style="height: 500px;width: 250px;position: absolute;top: -100px;">
+            <img src="https://img-blog.csdnimg.cn/86dce905e495425eae7c258cbf42ad1f.png" alt="" style="height: 100%;width: 190px;position: absolute;left: 1105px;">
+            <img src="https://img-blog.csdnimg.cn/40d4c45fdd8e4191b59d4a23d61d7439.png" alt="" style="height: 330px;width: 680px;position: absolute;left: 480px;bottom: -30px;">
+            <img src="https://img-blog.csdnimg.cn/8a74d991d07b4adc91ad972ca44d7f38.png" alt="" style="height: 100px;width: 100px;position: absolute;left: -30px;bottom: -30px;">
+            <img src="https://img-blog.csdnimg.cn/763ca1f6b8504d03a4dee7a6bb0af69d.png" alt="" style="height: 60px;width: 70px;position: absolute;left: 350px;top: 65px;">
+            <h2 style="text-align: center;padding-top: -10px; font-size: 65px;font-weight: 400;color: #2F4F4F;"><a name="Contact Us"></a>Contact Us</h2>
+            <div style="position: absolute;width: 65%;right: 230px;top: 130px;">
+                <p style="font-size: 35px;float: left;">•热爱计算机,具有geek精神,喜欢DIY,动手能力较强</p>
+                <p style="font-size: 35px;float: left;">•有编程/算法/硬件基础为佳(有作品可附上)</p>
+                <p style="font-size: 35px;float: left;">•有足够的空余时间，热爱思考，对事物有自己的见解</p>
+                <p style="font-size: 25px;float: left;color: #708090;">ps:非新思路统招只有通过发送邮件自我介绍后，收到邮件回执后才会被允许进群,在读学生, 都可邮件到newthread_geek@outlook.com报名加入.(信中需备注个人基本信息以及意向方向,此招新活动为长期招新)</p>
+                
+            </div>
+            <a href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click" class="button" style="position: absolute;bottom: 50px;right: 450px;">Git Hub</a>
+            <a href="" class="button" style="position: absolute;bottom: 50px;right: 600px;">E-mail</a>
+            <a href="" class="button" style="position: absolute;bottom: 50px;right: 750px;">QQ-Group</a>
+        </div>
+    </div>
+    <div>
+        <div style="border-color: #6495ED; border-style: solid;border-width: 12px; border-radius: 30px; height: 1000px;width: 90%; position: absolute;top:5700px;left: 80px; background-image: url(https://img-blog.csdnimg.cn/68b332cb07fe40678441b7a00b424ae1.png);background-repeat: no-repeat;">
+            <h2 style="font-size: 60px;text-align: center;"><a name="More Questions"></a>More Questions</h2>
+            <div style="margin: auto;position: absolute;left: 350px;">   
+                <p style="font-size: 25px;">1.什么是Geek(极客)?Geek精神又是什么?</p>
+                <p style="font-size: 25px;">2.招新是安排在什么时间？</p>
+                <p style="font-size: 25px;">3.我们有考核吗？考核流程是怎样的呀？</p>
+                <p style="font-size: 25px;">4.考核是怎样的形式？</p>
+                <p style="font-size: 25px;">5.进入Geek组之后都有什么福利呢?</p>
+                <p style="font-size: 25px;">6.进入团队会影响我的日常学习吗？</p>
+                <p style="font-size: 25px;">7.老师以及学长学姐们的期望是什么?</p>
+            </div> 
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
